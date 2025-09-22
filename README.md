@@ -27,14 +27,83 @@ PROJECT HIGHLIGHTS:
 - **Building the web page backend:** As a **backend Python framework**, **Flask** is used. It allows us to get the **uploaded medical images** from the front end (**CT, MRI, X-ray, PET**). The **image** is converted with **Python backend function** to the corresponding **array form**, which was used for the **model training** with **TensorFlow and Keras**, and sent to the trained **convolutional neural network model** for **analysis**. The **result** that we got from the **neural network** is encoded to the corresponding **class** and sent back to the frontend like the **diagnosis text result** with corresponding **probability** to the **user** with the usage of **Jinja2**.
 - **Deployment:** The **entire app** is **containerized** with the usage of **Docker Desktop** and the app's **Docker image** is uploaded to the **Docker Hub platform**. For the **deployment** is used **Google Kubernetes container orchestration tool**. The app is deployed locally with **Minikube** and tested for **performance**. The **domain** is bought on the **Namecheap platform** and the app can be deployed on any platform which supports **Kubernetes** such as: **Amazon Elastic Kubernetes Service (AWS->EKS), Microsoft Azure Kubernetes Service (AKS), Google Kubernetes Engine (GKE)**, etc.
 
+**Data collection and preprocessing**  
+Since no access to the official medical database, a custom database was created. Developed **Python scripts** that **unify image dimensions** (width, height, color channels, transparency) to **grayscale images**. Also created a script that **converts all images into a .CSV dataset** using **Pandas**, where each row represents a **normalized pixel value** with the corresponding **class label**.
+
+**Used datasets**  
+You can download the raw datasets from the following links:
+
+- [**Brain Tumor Detection**](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection)
+- [**Melanoma Skin Cancer**](https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images)
+- [**Chest X-ray Pneumonia**](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
+These datasets were downloaded and edited with **preprocessing scripts**:
+
+- **unifyImageSizeFromFolderAndSave.py**
+- **makeCSVDatasetFromImageFolders.py**
+
+The **processed datasets** were saved as:
+
+- **Br35H.csv**
+- **melanoma_cancer.csv**
+- **chest_xray.csv**
+
+**Training process**  
+Model training was performed using multiple **experimental CNN training scripts** with different architectures and optimization techniques, including:
+
+- **1.0_trainCNN.py**
+- **1.1_trainCNN_CatchComplexPatterns.py**
+- **1.2_trainCNN_CatchComplexPatterns_DA_EarlyStopping.py**
+- **1.2_trainCNN_CatchComplexPatterns_DA_EarlyStopping_128x128.py**
+- **1.2_trainCNN_CatchComplexPatterns_DA_EarlyStopping_MoreLayers_128x128.py**
+- **1.3_trainCNN_CatchComplexPatterns_DA_EarlyStopping_ClassBalanced_ReducedLearningRate.py**
+- **1.4_trainCNN_MediumComplexity_DA_EarlyStopping_Droput_L2.py**
+- **1.5_trainCNN_smallerNumberOfFilters.py**
+
+**Database creation**  
+For saving diagnostic results, the **database schema and tables** were created using:
+
+- **create_db.py**
+- **db_models.py**
+
+**Application runtime**  
+The **main script** which runs the entire app is:
+
+- **main.py**
+
 ### ⚠️ Note
 
-This concept is for **local use only**, and significantly **improved training data** is essential for **real-world applications**.
+- This concept is for **local use only**, and significantly **improved training data** is essential for **real-world applications**.
+- Please note that sharing project files is strictly prohibited. This project is intended solely for **educational** and **non-commercial** purposes.
 
 ### 🔧 Tech Stack
 
 **Python, Convolutional neural network, Open CV – Computer vision, SQL, Pandas, Tensorflow, Keras, Scikit-learn, Git, GitHub, Docker Desktop, Docker Hub, Kubernetes, Minikube, Namecheap, HTML, CSS, Bootstrap, Javascript, Flask, Jinja2, Linux, AI Image generation tools as Adobe Firefly and Playground.com**
 
+---
+
+### 📸 Project Snapshot
+
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/master/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_1.png?raw=true"
+       alt="Medical AI Diagnosis System Preview 1"
+       width="640"
+       height="360">
+</p>
+
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/master/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_2.png?raw=true"
+       alt="Medical AI Diagnosis System Preview 2"
+       width="640"
+       height="360">
+</p>
+
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/master/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_3.png?raw=true"
+       alt="Medical AI Diagnosis System Preview 3"
+       width="640"
+       height="360">
+</p>
 ---
 
 ### 📸 Project Snapshot
