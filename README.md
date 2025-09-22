@@ -104,6 +104,7 @@ The **main script** which runs the entire app is:
        width="640"
        height="360">
 </p>
+
 ---
 
 ### 📸 Project Snapshot
@@ -178,6 +179,7 @@ The **main script** which runs the entire app is:
 </p>
 
 ---
+
 
 ### 📣 Hashtags Section
 
