@@ -22,25 +22,63 @@
        width="640"
        height="360">
 </p>
+---
+
+### 📸 Project Snapshot
 
 <p align="center">
-  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/master/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_4.png?raw=true"
-       alt="Medical AI Diagnosis System Preview 4"
-       width="640"
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/main/publish/2.0_Thumbnail_1.png?raw=true" 
+       alt="Medical AI Diagnosis System Preview 1" 
+       width="640" 
        height="360">
 </p>
 
 <p align="center">
-  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/master/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_5.png?raw=true"
-       alt="Medical AI Diagnosis System Preview 5"
-       width="640"
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/main/publish/2.0_Thumbnail_2.png?raw=true" 
+       alt="Medical AI Diagnosis System Preview 2" 
+       width="640" 
        height="360">
 </p>
 
 <p align="center">
-  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/master/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_6.png?raw=true"
-       alt="Medical AI Diagnosis System Preview 6"
-       width="640"
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/main/publish/2.0_Thumbnail_3.png?raw=true" 
+       alt="Medical AI Diagnosis System Preview 3" 
+       width="640" 
+       height="360">
+</p>
+
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/main/publish/2.0_Thumbnail_4.png?raw=true" 
+       alt="Medical AI Diagnosis System Preview 4" 
+       width="640" 
+       height="1000">
+</p>
+
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/main/publish/2.0_Thumbnail_5.png?raw=true" 
+       alt="Medical AI Diagnosis System Preview 5" 
+       width="640" 
+       height="1000">
+</p>
+
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/main/publish/2.0_Thumbnail_6.png?raw=true" 
+       alt="Medical AI Diagnosis System Preview 6" 
+       width="640" 
+       height="1000">
+</p>
+
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/main/publish/2.0_Thumbnail_7.png?raw=true" 
+       alt="Medical AI Diagnosis System Preview 7" 
+       width="640" 
+       height="1000">
+</p>
+
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.07.31_GitHub_Medical-AI-Diagnosis-System---Full-stack/blob/main/publish/2.0_Thumbnail_8.png?raw=true" 
+       alt="Medical AI Diagnosis System Preview 8" 
+       width="640" 
        height="360">
 </p>
 
@@ -53,7 +91,7 @@
     <img src="https://img.youtube.com/vi/_0w1zhbn-rc/0.jpg"
          alt="Watch the demo"
          width="640"
-         height="360">
+         height="1000">
   </a>
 </p>
 
